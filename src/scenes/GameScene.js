@@ -10,7 +10,7 @@ export default class GameScene extends Phaser.Scene {
     this.enemyEnabled = [];
     this.score = 10;
     this.level = 1;
-    this.lives = 0;
+    this.lives = 3;
   }
  
   create() {
