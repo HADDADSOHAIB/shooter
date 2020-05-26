@@ -1,3 +1,4 @@
+/* eslint-disable import/no-extraneous-dependencies, import/no-unresolved */
 const path = require('path');
 const express = require('express');
 

@@ -1,4 +1,4 @@
-/* eslint-disable import/no-extraneous-dependencies */
+/* eslint-disable import/no-extraneous-dependencies, import/no-unresolved */
 const merge = require('webpack-merge');
 const TerserPlugin = require('terser-webpack-plugin');
 const base = require('./base');
