@@ -22,6 +22,7 @@
     "webpack-merge": "^4.2.2"
   },
   "dependencies": {
+    "axios": "^0.19.2",
     "phaser": "^3.20.1"
   },
   "author": "haddad sohaib",
