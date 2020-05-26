@@ -1,6 +1,6 @@
 # Shooter Game
 
-This project is a shooter game build using phaser 3 engine. This is the final project of javscript module of [Micriverse](https://www.microverse.org/)
+This project is a shooter game build using phaser 3 engine. This is the final project of javscript module of [Microverse](https://www.microverse.org/)
 
 ## Video presentation
 
@@ -57,23 +57,18 @@ For running the test:
 
 ![start](/readme-assets/1.png)
 ![start](/readme-assets/2.png)
-
 - After loading all the assets, you have a menu where you can choose 3 options: Play, option, and credits choose Play to start the game.
 
 ![start](/readme-assets/3.png)
-
 - Before starting the game you have to provide your name, the default value is "player" if you don't provide a name.
 
 ![start](/readme-assets/4.png)
-
 - I entered my name using the keyboard.
 
 ![start](/readme-assets/5.png)
-
 - My character is the one in the bottom of the screen, the enemies are the yellow characters in the top. The game is about killing the enemies before they kill me, you can shoot them with the space bar, move your character to get aligned with the enemy but be careful, the enemy shoots back.
 
 ![start](/readme-assets/6.png)
-
 - Keep playing and you are out of lives and try to get the highest score possible. From level to level the speed of the enemies increase.
 
 ![start](/readme-assets/7.png)
