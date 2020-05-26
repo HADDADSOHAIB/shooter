@@ -30,7 +30,7 @@ export default class Over extends Phaser.Scene {
     });
 
     playButton.on('pointerup', () => {
-      window.location.assign('/dist');
+      window.location.assign('/');
     });
 
     this.add.text(120, 50, `Good job ${this.name}`, {

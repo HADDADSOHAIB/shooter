@@ -1,8 +1,8 @@
 import 'phaser';
 import BulletGroup from '../objects/BulletGroup';
- 
+
 export default class GameScene extends Phaser.Scene {
-  constructor () {
+  constructor() {
     super('Game');
     this.lastFire = 0;
     this.enemyBullets = [];
@@ -12,10 +12,10 @@ export default class GameScene extends Phaser.Scene {
     this.level = 1;
     this.lives = 3;
   }
- 
+
   create() {
     this.name = this.sys.game.globals.name;
-    
+
     this.add.image(400, 300, 'ground');
     this.platforms = this.physics.add.staticGroup();
     this.platforms.create(100, 500, 'shield');
@@ -204,4 +204,4 @@ export default class GameScene extends Phaser.Scene {
 
     this.fireEnemyBullets();
   }
-};
+}

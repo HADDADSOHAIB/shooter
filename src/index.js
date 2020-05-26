@@ -1,5 +1,6 @@
-import 'phaser';
-import "regenerator-runtime/runtime.js";
+import Phaser from 'phaser';
+// eslint-disable-next-line import/extensions
+import 'regenerator-runtime/runtime.js';
 import config from './config/config';
 import GameScene from './scenes/GameScene';
 import BootScene from './scenes/BootScene';
@@ -10,9 +11,9 @@ import CreditsScene from './scenes/CreditsScene';
 import NameScene from './scenes/NameScene';
 import ScoreScene from './scenes/ScoreScene';
 import Model from './Model';
- 
+
 class Game extends Phaser.Game {
-  constructor () {
+  constructor() {
     super(config);
 
     const model = new Model();
@@ -29,5 +30,5 @@ class Game extends Phaser.Game {
     this.scene.start('Boot');
   }
 }
- 
+
 window.game = new Game();

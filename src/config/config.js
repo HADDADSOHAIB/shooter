@@ -1,6 +1,6 @@
 import 'phaser';
 // import AwaitLoaderPlugin from 'phaser3-rex-plugins/plugins/awaitloader-plugin.js';
- 
+
 export default {
   type: Phaser.AUTO,
   parent: 'phaser-example',
