@@ -1,5 +1,4 @@
-import 'phaser';
-import config from '../config/config';
+import Phaser from 'phaser';
 import Button from '../objects/Button';
 
 export default class WelcomeManu extends Phaser.Scene {

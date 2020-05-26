@@ -1,6 +1,7 @@
-import 'phaser';
+import Phaser from 'phaser';
 
 export default class Bullet extends Phaser.Physics.Arcade.Sprite {
+  // eslint-disable-next-line no-useless-constructor
   constructor(scene, x, y, image) {
     super(scene, x, y, image);
   }

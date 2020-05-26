@@ -1,4 +1,3 @@
-const axios = require('axios');
 const scoreService = require('../src/services/scoreService');
 
 test('should fetch users', () => {

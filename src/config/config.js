@@ -1,5 +1,4 @@
-import 'phaser';
-// import AwaitLoaderPlugin from 'phaser3-rex-plugins/plugins/awaitloader-plugin.js';
+import Phaser from 'phaser';
 
 export default {
   type: Phaser.AUTO,
@@ -12,11 +11,4 @@ export default {
       gravity: { x: 0, y: 0 },
     },
   },
-  // plugins: {
-  //   global: [{
-  //     key: 'rexAwaitLoader',
-  //     plugin: AwaitLoaderPlugin,
-  //     start: true
-  //   }],
-  // }
 };

@@ -1,4 +1,4 @@
-import 'phaser';
+import Phaser from 'phaser';
 import Bullet from './Bullet';
 
 export default class BulletGroup extends Phaser.Physics.Arcade.Group {

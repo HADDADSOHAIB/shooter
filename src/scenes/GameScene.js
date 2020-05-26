@@ -1,4 +1,4 @@
-import 'phaser';
+import Phaser from 'phaser';
 import BulletGroup from '../objects/BulletGroup';
 
 export default class GameScene extends Phaser.Scene {
