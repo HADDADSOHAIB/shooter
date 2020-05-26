@@ -100,6 +100,7 @@ export default class PreloaderScene extends Phaser.Scene {
     this.load.image('enemy', './src/assets/eny.gif');
     this.load.image('bomb', './src/assets/bomb.png');
     this.load.image('ground', './src/assets/ground.png');
+    this.load.image('play', './src/assets/play.png');
   }
   create () {
   }

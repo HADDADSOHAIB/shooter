@@ -35,11 +35,10 @@ export default class WelcomeManu extends Phaser.Scene {
   }
 
   updateGlobalName(name){
-    const globalName = this.sys.game.globals.name;
     if(name === ''){
-      globalName = 'player';
+      this.sys.game.globals.name = 'player';
     } else {
-      globalName = name;
+      this.sys.game.globals.name = name;
     }
   }
 }

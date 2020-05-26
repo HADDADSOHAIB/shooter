@@ -1,21 +1,21 @@
 import 'phaser';
 import BulletGroup from '../objects/BulletGroup';
-// import { createNewScore, getScores } from '../services/scoreService';
  
 export default class GameScene extends Phaser.Scene {
   constructor () {
     super('Game');
-
     this.lastFire = 0;
     this.enemyBullets = [];
     this.enemyFire = [];
     this.enemyEnabled = [];
     this.score = 10;
     this.level = 1;
-    this.lives = 3;
+    this.lives = 0;
   }
  
   create() {
+    this.name = this.sys.game.globals.name;
+    
     this.add.image(400, 300, 'ground');
     this.platforms = this.physics.add.staticGroup();
     this.platforms.create(100, 500, 'shield');
@@ -181,11 +181,8 @@ export default class GameScene extends Phaser.Scene {
     if (bomb.active && this.lives === 0) {
       this.physics.pause();
       player.setTint(0xff0000);
-
-      // await createNewScore(this.name, this.score);
-      // const scores = await getScores();
-
-      this.scene.start('Over');
+      this.sys.game.globals.score = this.score;
+      this.scene.start('Score');
     } else if (bomb.active) {
       bomb.setActive(false);
       bomb.setVisible(false);

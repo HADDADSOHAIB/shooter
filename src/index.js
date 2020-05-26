@@ -1,4 +1,5 @@
 import 'phaser';
+import "regenerator-runtime/runtime.js";
 import config from './config/config';
 import GameScene from './scenes/GameScene';
 import BootScene from './scenes/BootScene';
@@ -7,6 +8,7 @@ import TitleScene from './scenes/TitleScene';
 import OptionsScene from './scenes/OptionsScene';
 import CreditsScene from './scenes/CreditsScene';
 import NameScene from './scenes/NameScene';
+import ScoreScene from './scenes/ScoreScene';
 import Model from './Model';
  
 class Game extends Phaser.Game {
@@ -22,6 +24,7 @@ class Game extends Phaser.Game {
     this.scene.add('Options', OptionsScene);
     this.scene.add('Credits', CreditsScene);
     this.scene.add('Game', GameScene);
+    this.scene.add('Score', ScoreScene);
     this.scene.add('Name', NameScene);
     this.scene.start('Boot');
   }
