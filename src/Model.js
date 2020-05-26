@@ -1,3 +1,4 @@
+/* eslint-disable import/no-unresolved */
 export default class Model {
   constructor() {
     this.vsoundOn = true;

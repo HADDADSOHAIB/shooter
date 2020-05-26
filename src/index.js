@@ -1,6 +1,7 @@
-import Phaser from 'phaser';
+/* eslint-disable import/no-unresolved */
 // eslint-disable-next-line import/extensions
 import 'regenerator-runtime/runtime.js';
+import Phaser from 'phaser';
 import config from './config/config';
 import GameScene from './scenes/GameScene';
 import BootScene from './scenes/BootScene';

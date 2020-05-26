@@ -1,3 +1,4 @@
+/* eslint-disable import/no-unresolved */
 import Axios from 'axios';
 
 const apiId = 'UHEy4KH4wg2ikIikvPPZ';

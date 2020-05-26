@@ -1,3 +1,4 @@
+/* eslint-disable import/no-unresolved */
 import Phaser from 'phaser';
 import config from '../config/config';
 import Button from '../objects/Button';
