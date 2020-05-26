@@ -1,7 +1,6 @@
 const axios = require('axios');
 const scoreService = require('../src/services/scoreService')
 
-
 test('should fetch users', () => {
   const users = [{name: 'Bobo', score: 10 }, {name: 'Boba', score: 20 }];
   const resp = {data: users};
