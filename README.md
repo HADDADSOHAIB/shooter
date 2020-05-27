@@ -57,7 +57,9 @@ For running the test:
 
 ## How to play
 
-Use the arrows keys :arrow_up: , :arrow_down: ,  :arrow_right: , :arrow_left: to move the player, and use the space bar to shoot. :space_invader:
+- Use the arrows keys :arrow_up: , :arrow_down: ,  :arrow_right: , :arrow_left: to move the player, and use the space bar to shoot. :space_invader:
+
+- The green bars are barriers so you can't kill the enemy behind them (that increases the difficulty of the game) and also you can protect yourself if the game gets so hard.
 
 ![start](/readme-assets/1.png)
 ![start](/readme-assets/2.png)
