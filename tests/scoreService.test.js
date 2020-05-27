@@ -3,7 +3,7 @@ const scoreService = require('../src/services/scoreService');
 
 jest.mock('../src/services/scoreService');
 
-describe('GameScene initiated tests', () => {
+describe('Score Service tests', () => {
   scoreService.getScores.mockResolvedValue({
     data: {
       result: [{ name: 'Bobo', score: 10 }, { name: 'Boba', score: 20 }],
