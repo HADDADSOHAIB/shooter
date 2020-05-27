@@ -4,6 +4,8 @@ This project is a shooter game build using phaser 3 engine. This is the final pr
 
 ## Video presentation
 
+[![Video](/readme-assets/8.png)](https://www.loom.com/share/28ab5c0e820c4199942a705f2bdb8578)
+
 
 ## How the game was design and developed
 
