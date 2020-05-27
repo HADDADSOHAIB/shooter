@@ -1,3 +1,4 @@
+/* eslint-disable func-names */
 
 const GameScene = require('../src/scenes/GameScene');
 
