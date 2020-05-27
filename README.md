@@ -57,6 +57,8 @@ For running the test:
 
 ## How to play
 
+Use the arrows keys :arrow_up: , :arrow_down: ,  :arrow_right: , :arrow_left: to move the player, and use the space bar to shoot. :space_invader:
+
 ![start](/readme-assets/1.png)
 ![start](/readme-assets/2.png)
 - After loading all the assets, you have a menu where you can choose 3 options: Play, option, and credits choose Play to start the game.
