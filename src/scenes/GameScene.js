@@ -183,6 +183,7 @@ export default class GameScene extends Phaser.Scene {
       this.physics.pause();
       player.setTint(0xff0000);
       this.sys.game.globals.score = this.score;
+
       this.scene.start('Score');
     } else if (bomb.active) {
       bomb.setActive(false);

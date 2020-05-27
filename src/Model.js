@@ -4,9 +4,14 @@ export default class Model {
     this.vsoundOn = true;
     this.vmusicOn = true;
     this.vbgMusicPlaying = false;
+    const storage = window.localStorage.getItem('musicOn');
+    if (storage && storage === 'false') {
+      this.vmusicOn = false;
+    }
   }
 
   set musicOn(value) {
+    window.localStorage.setItem('musicOn', value);
     this.vmusicOn = value;
   }
 
