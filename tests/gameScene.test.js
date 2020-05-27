@@ -1,3 +1,4 @@
+
 const GameScene = require('../src/scenes/GameScene');
 
 describe('GameScene initiated tests', () => {
@@ -32,3 +33,16 @@ describe('GameScene initiated tests', () => {
     expect(game.lastFire).toBe(0);
   });
 });
+
+// describe('GameScene create tests', () => {
+//   const Game = GameScene.default;
+//   const game = new Game();
+
+//   test('scene should have a user name', () => {
+//     expect(game.name).toBeTruthy();
+//   });
+
+//   test('scene should have plateforms', () => {
+//     expect(game.platforms).toBeTruthy();
+//   });
+// });
