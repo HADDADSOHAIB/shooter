@@ -1,6 +1,6 @@
 # Shooter Game
 
-This project is a shooter game build using phaser 3 engine. This is the final project of javscript module of [Microverse](https://www.microverse.org/)
+This project is a shooter game build using phaser 3 engine. This is the final project of javascript module of [Microverse](https://www.microverse.org/)
 
 ## Video presentation
 
@@ -12,12 +12,12 @@ This project is a shooter game build using phaser 3 engine. This is the final pr
 I started working on this project with zero experience with phaser, thanks to the following resources, I was able to build this game in 5 days:
 
 - [Getting started with phaser](http://phaser.io/tutorials/making-your-first-phaser-3-game/part1)
-- [Creating a templete for phaser game](https://phasertutorials.com/creating-a-phaser-3-template-part-1/).
+- [Creating a template for phaser game](https://phasertutorials.com/creating-a-phaser-3-template-part-1/).
 - [Modern development set-up for phaser 3](https://snowbillr.github.io/blog/2018-04-09-a-modern-web-development-setup-for-phaser-3/)
 - [open game art](https://opengameart.org/).
 - [Build a space shooter with phaser](https://learn.yorkcs.com/category/tutorials/gamedev/phaser-3/build-a-space-shooter-with-phaser-3/).
 
-Also I used this ressources to understand the design process: 
+Also I used this resources to understand the design process: 
 
 - [The Ultimate Guide to Level Design](https://www.gamedesigning.org/learn/level-design/),
 - [The 3 Primary Principles of Game Design](https://www.gamedesigning.org/learn/game-design-principles/),
