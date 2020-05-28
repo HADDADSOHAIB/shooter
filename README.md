@@ -1,6 +1,6 @@
 # Shooter Game
 
-This project is a shooter game build using phaser 3 engine. This is the final project of javascript module of [Microverse](https://www.microverse.org/)
+This project is a shooter game build using phaser 3 engine. This is the final project of JavaScript module of [Microverse](https://www.microverse.org/)
 
 ## Video presentation
 
